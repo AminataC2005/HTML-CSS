@@ -1,0 +1,127 @@
+@charset "UTF-8";
+body {
+    background-color: #6da671;
+}
+@font-face {
+        font-family: "idroid"  ;
+        src: url("../fontes/idroid.otf" ) format("opentype");
+      }
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    background-image:linear-gradient(to top, #034207,#6da671) ;
+    text-align: center; 
+    color: aliceblue;  
+
+}
+header>h1 {
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+ header>p {
+    margin-bottom: 50px;
+    margin-top: -30px;
+    font-size: 25px;
+
+ }
+header>nav {
+    text-align: left;
+}
+header>nav>a{
+    color: aliceblue;
+    margin: 0px 20px 2px 0px;
+    
+}
+header>nav>a:hover {
+    background-color: #6da671;
+}
+picture>img {
+    width: 100%;
+}
+main {
+    max-width: 800px;
+    min-width: 200px;
+    margin: auto;
+    background-color: aliceblue;
+
+}
+.historiaa{
+    font-family: idroid;
+     color: #034207;
+     padding: 10px 20px 20px 5px;
+}
+.historia {
+    font-family: idroid;
+    padding: 10px 20px 20px 20px;
+    color: #034207;
+    background-color: #75be7b;
+    
+}
+article>img {
+    display: block;
+    margin: auto;
+}
+.paragrafos {
+    text-indent: 10px;
+    padding: 10px 0px 10px 0px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    
+}
+aside {
+    background-color: #43bd4b;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+aside>ul{
+    
+    list-style-position: inside;
+    columns: 2;
+    
+}
+
+aside>ul>li>a:hover {
+ background-color: #034207;
+ color: antiquewhite;
+}
+aside>ul>li>a {
+    color: black;
+}
+.curiosidade {
+    background-color: #034207;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px 0px 10px 0px;
+   }
+footer {
+    font-weight: bold;
+    text-align: center;
+}
+div {
+
+    background-color: #034207;
+    margin: 0px 20px 20px 20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 50%;
+    border-radius: 10px 10px 10px 10px;
+
+}
+div>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px 10px 10px 10px;
+
+}
+ 

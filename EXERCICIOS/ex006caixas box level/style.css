@@ -1,0 +1,41 @@
+   @charset "UTF-8";
+    
+    body { 
+            background-color: rgba(214, 122, 194, 0.39);
+
+        }
+       
+       header {
+        border: 2px solid rgba(243, 37, 164, 0.452);
+        background-color: aliceblue;
+       }
+        header> h1 {
+         font-size: 50px;
+         text-shadow:2px 2px 2px rgba(0, 0, 0, 0.527);
+         
+         
+          margin: auto;
+          text-align: center;
+        }
+        header>nav { 
+            background-color: rgba(243, 148, 216, 0.87);
+            text-align: center;
+            color: rgb(99, 52, 85);
+        }
+        main>h2 {
+            background-color: aliceblue;
+            font-size: 30px;
+            box-shadow:inset 1px 1px 1px black;
+
+        }
+        main>article {
+            background-color: aliceblue;
+         height: 200px;
+         border-radius: 20px 0px;
+         
+        }
+        footer {
+            background-color: black;
+            text-align: center;
+            color: aliceblue;
+        }
