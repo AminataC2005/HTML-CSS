@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        table {
+            width: 500px;
+             border-collapse: collapse;
+        }
+        thead {
+             background-color: rgba(51, 32, 8, 0.808);
+             color: aliceblue;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 15px;
+        }
+         tbody>tr:nth-child(2n) {
+            background-color: rgba(0, 255, 255, 0.199);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Estado </th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> São Paulo</td>
+                <td>45 973 194</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais</td>
+                <td>21 322 691</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td>17 219 679	 </td>
+            </tr>
+            <tr>
+                <td> Bahia</td>
+                <td>14 850 513</td>
+            </tr>
+            <tr>
+                <td> Paraná</td>
+                <td>11 824 665</td>
+            </tr>
+            <tr>
+                <td> Rio Grande do Sul</td>
+                <td>11 229 915	</td>
+            </tr>
+            <tr>
+                <td> Pernambuco	</td>
+                <td>9 539 029	</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>9 233 656</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>8 664 306</td>
+            </tr>
+            <tr>
+                <td> Santa Catarina</td>
+                <td>8 058 441</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row"> Numero total da população</th>
+            <td>00000</td>
+        </tfoot>
+    </table>
+</body>
+</html>
