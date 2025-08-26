@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+@media screen and (min-width: 768px) and ( max-width:992px){
+   img#phone {
+    display: none;margin: auto;}
+    
+img#pc {
+    display: none;margin: auto;}
+img#print {
+    display: none; margin: auto;}
+img#tablet {
+    display: block; margin: auto;}
+img#tv {
+    display: none; margin: auto;} 
+
+    body{
+        background-image: url(../imagem/back-tablet.jpg);
+        
+    }
+}
+
+@media screen and (min-width: 992px) and ( max-width:1200px){
+
+   img#phone {
+    display: none;margin: auto;}
+    
+img#pc {
+    display:block;margin: auto;}
+img#print {
+    display:none ; margin: auto;}
+img#tablet {
+    display: none; margin: auto;}
+img#tv {
+    display: none; margin: auto;} 
+    body {
+        background-image: url(../imagem/back-pc.jpg);
+        
+    }
+}   
+
+@media screen and  ( min-width: 1200px){
+img#phone {
+    display: none;margin: auto;}
+    
+img#pc {
+    display:none;margin: auto;}
+img#print {
+    display:none ; margin: auto;}
+img#tablet {
+    display: none; margin: auto;}
+img#tv {
+    display: block; margin: auto;} 
+    body {
+        background-image: url(../imagem/back-tv.jpg);
+         
+    }
+}   
+
+@media print{
+img#phone {
+    display: none;margin: auto;}
+    
+img#pc {
+    display:none;margin: auto;}
+img#print {
+    display:block ; margin: auto;}
+img#tablet {
+    display: none; margin: auto;}
+img#tv {
+    display: none; margin: auto;} 
+   main {
+    border: 5px solid black;
+    width: 500px;
+    
+   }
+   h1{
+    color: black;
+   }
+   
+    body {
+       font-family: 'Times New Roman', Times, serif; 
+         color: black;
+    }
+}   
