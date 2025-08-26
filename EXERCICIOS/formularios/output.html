@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form action="">
+      <p>
+          <label for="in1">numero1</label>
+          <input type="number" name="n1" id="in1" oninput="soma.innerHTML= Number(in1.value) + Number(in2.value)">
+
+      </p>
+    
+      <p>
+          <label for="in2">numero2</label>
+          <input type="number" name="n2" id="in2" oninput="soma.innerHTML= Number(in2.value) + Number(in1.value)">
+          
+      </p>
+      <p>
+        <label for="soma">soma</label>
+        <output id="soma">0</output>
+      </p>
+       <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+       </p>
+
+
+     </form>
+</body>
+</html>
