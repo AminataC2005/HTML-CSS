@@ -4,10 +4,13 @@
     margin: 0px;
     padding: 0px;
 }
-html, body {
+html,body {
 width: 100vw;
 height: 100vw;
-background-color: blue;
+background-color: #233eff;
+background-size: contain;
+background-repeat: no-repeat;
+
 }
 
     

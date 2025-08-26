@@ -2,4 +2,6 @@
 
 body{
     background-image: url(../imagem/cev-landscape.jpg);
+    background-attachment: fixed;
+    background-position: left bottom;
 }
