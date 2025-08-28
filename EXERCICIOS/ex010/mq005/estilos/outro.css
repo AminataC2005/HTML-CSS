@@ -1,0 +1,25 @@
+@charset " UTF-8";
+@media screen and (min-width:768px) {
+    span#span{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+ body {
+    background-color: aliceblue;
+ }
+ main{
+    background-color: rgba(0, 0, 0, 0.171);
+    width: 80vw;
+
+ }
+ header>h1 {
+    background-color: aliceblue;
+ }
+ header>nav>ul>li{
+    background-color: black;
+    border: 1px solid white;
+ }
+    
+}

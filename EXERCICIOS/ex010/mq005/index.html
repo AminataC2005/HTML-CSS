@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsivo/</title>
+    <link rel="stylesheet" href="estilos/style.css"  >
+    <link rel="stylesheet" href="estilos/outro.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body  onresize="mudoutamanho()">
+    <header>
+        <h1>Meu site</h1>
+        <span id="span" class="material-symbols-outlined" onclick="clickmenu()">menu</span>
+        <nav id="items">
+            <ul >
+                <li><a href="#">seção1</a></li>
+                <li><a href="#">seção2</a></li>
+                <li><a href="#">seção3</a></li>
+                <li><a href="#">seção4</a></li>
+                <li><a href="#">seção5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <article>
+            <h2>Testando Media Query</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae tempora voluptatibus voluptate doloremque vero nam culpa autem inventore! Numquam, provident. Delectus officia repellat praesentium voluptatum, adipisci voluptates architecto labore Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, maxime? Neque necessitatibus quae doloremque! Repudiandae quisquam praesentium explicabo, omnis expedita beatae sequi. Officiis, quas rerum! Sunt iusto nobis cum earum?</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, labore provident molestiae id in expedita natus hic vero illo iusto praesentium delectus velit rerum aut ab, cupiditate fuga aliquid Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque perspiciatis ullam tempora adipisci quae quisquam voluptas quam tenetur dolore ad. Aperiam quis omnis tempore tempora, consequatur tenetur illum laudantium maxime.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis impedit nisi voluptas id quae atque repellat facere, pariatur, non animi esse et necessitatibus inventore, dicta architecto sapiente quidem culpa Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi eum quam adipisci quasi hic explicabo, rerum id architecto iure officia nesciunt culpa. Natus modi veniam ab assumenda soluta eaque perferendis Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi harum minus pariatur, adipisci porro deserunt obcaecati quae molestiae fugit nostrum, possimus natus ab, sint officia. Delectus atque eaque aspernatur sequi..</p>
+        </article>
+    </main>
+
+    <script>
+        function mudoutamanho() {
+            if (window.innerWidth >= 768 ) {
+                items.style.display = 'block'
+            } else{ items.style.display = 'none'}
+        }
+        function clickmenu() {
+          
+          if (items.style.display === 'block') {
+        items.style.display = 'none';
+          } else {
+        items.style.display = 'block';
+          }
+        }
+    </script>
+    
+    
+</body>
+
+</html>
