@@ -1,0 +1,137 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #00635A;
+}
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+ }
+ section{
+    position: absolute;
+    background-color: white;
+    width: 270px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    box-shadow: 7px 2px 2px rgba(0, 0, 0, 0.329);
+    overflow: hidden;
+    transition: width .0,3s, height .0,3s;
+ }
+ div#imagem{
+    display: block;
+    background-image: url("../imagem/pexels-pixabay-39284\ \(1\).jpg");
+    width: 270px;
+    height: 230px;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+ }
+ div#formulario{
+    display: block;
+
+ }
+ #formulario>form>label{
+   display: none;
+ }
+ #formulario>h1 {
+    padding: 5px;
+    text-align: center;
+ }
+    #formulario>p{
+        font-size: 0,1em;
+        
+    }
+    #senha{
+      height: 40px;
+      background-color:#00E3CC ;
+      border: 2px solid #009688;
+      border-radius: 10px;
+      margin-top: 5px;
+    }
+     #senha>span{
+      color: aliceblue;
+       
+     }
+     #email>span{
+      color: aliceblue;
+     }
+     
+    #senha>input{
+    height: 70%;
+    width: 80%
+    }
+    #email>input{
+     height: 70%;
+    width: 80%
+    }
+    #email{
+      background-color:#00E3CC ;
+      border: 2px solid #009688;
+      border-radius: 10px;
+      height: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+    div#ceta{
+      width: 100px;
+      margin: auto;
+      text-align: center;
+      margin-top: 10px;
+      background-attachment: fixed;
+      box-shadow: 2px 2px 2px rgba(0, 255, 255, 0.432);
+      background-color: aqua;
+      border-radius: 50%;
+       display: block;
+       
+   
+    }
+    div#ceta:hover{
+      box-shadow: 2px 3px 3px aqua;
+      
+    }
+    div#ceta>a:hover{
+      color: aliceblue;
+    }
+      
+
+    
+    div#esqueci>a{
+      display: block;
+      text-align: center;
+      border: 2px solid  #009688;
+      width: 250px;
+      height: 30px;
+      margin: auto;
+      border-radius: 5px;
+      padding-top: 10px;
+      background-attachment: fixed;
+       margin: 3px;
+      color: black;
+      
+    }
+    div#esqueci>a:hover {
+      text-decoration: underline;
+      background-color: rgba(7, 95, 95, 0.863);
+      color: white;
+    }
+    #formulario>label{
+      
+    }
