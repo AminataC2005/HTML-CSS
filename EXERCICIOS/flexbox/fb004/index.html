@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   main{ background-color: aqua;
+            display: flex;
+        
+            flex-flow: row nowrap;
+            height: 500px;
+            align-items: flex-start;
+            
+        
+            
+        }
+        div{
+            border:2px solid #093838 ;
+            
+            flex-basis: 150px;
+
+
+
+        } 
+        #ep{
+         flex-grow: 1;
+         flex-shrink: 1;
+        }
+        #es{
+         flex-grow: 2;
+         flex-shrink: 0;
+        }
+        #et{
+          flex-grow: 4;
+          flex-shrink: 0; 
+        }
+
+</style>
+<body>
+    <main>
+        <div id="ep"> Exemplo 1</div>
+        <div id="es">Exemplo 2</div>
+        <div id="et">Exemplo 3</div>
+        
+       
+    </main>
+</body>
+</html>
