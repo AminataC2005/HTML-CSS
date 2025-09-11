@@ -12,19 +12,29 @@
         grid-template-columns: auto auto auto;
         grid-template-rows: 50px 50px 50px;
         gap: 5px;
+        grid-auto-rows: 50px;
         place-items: normal normal;
         place-content: normal normal;
+
         
       }
       .item{
         border: 2px solid rgb(61, 70, 70);
         
       }
+      .pri{
+        border: 1px solid red;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 8;
+      }
+
     </style>
 </head>
 <body>
     <div class="conteiner">
-      <div class="item">A</div>
+      <div class="pri">A</div>
       <div class="item">B</div>
       <div class="item">C</div>
       <div class="item">D</div>
